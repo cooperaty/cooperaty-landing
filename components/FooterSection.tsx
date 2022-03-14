@@ -5,7 +5,7 @@ const FooterSection = () => {
         <div className="max-w-7xl mx-auto ">
           <footer className="py-20 px-4">
             <div className="px-4 py-8 mx-auto">
-              <div className="flex justify-center items-center text-center content-center w-full mx-4 mb-8 lg:mb-16">
+              <div className="flex justify-center items-center text-center content-center w-full mb-8 lg:mb-16">
                 <div className="w-full px-4 mb-12 lg:mb-0">
                   <a className="text-white-600 text-2xl leading-none" href="#">
                     <img

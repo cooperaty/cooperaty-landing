@@ -95,14 +95,16 @@ const social = [
 
 const FourOhfour = () => {
   return (
-    <div className="bg-bg-texture bg-cover bg-bottom bg-no-repeat">
+    <div className="">
       <main className="max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex-shrink-0 pt-16">
-          <img
-            className="mx-auto h-12 w-auto"
-            src="../img/logo_mango.svg"
-            alt="Workflow"
-          />
+          <a href="/">
+            <img
+              className="mx-auto h-20 w-auto"
+              src="../img/logo_cooperaty.png"
+              alt="Cooperaty"
+            />
+          </a>
         </div>
         <div className="max-w-xl mx-auto py-16 sm:py-24">
           <div className="text-center">
@@ -112,86 +114,12 @@ const FourOhfour = () => {
             <h1 className="mt-2 text-4xl font-extrabold text-white tracking-tight sm:text-5xl">
               Hmm... you must be lost!
             </h1>
-            <p className="mt-2 text-lg text-gray-500">
+            <p className="mt-2 text-lg text-white-500 text-opacity-20">
               The page you are looking for could not be found.
             </p>
           </div>
-          <div className="mt-12">
-            <h2 className="text-sm font-semibold text-white text-opacity-50 tracking-wide uppercase">
-              Popular pages
-            </h2>
-            <ul
-              role="list"
-              className="mt-4 border-t border-b border-white divide-y divide-white divide-opacity-20 border-opacity-20"
-            >
-              {links.map((link, linkIdx) => (
-                <li
-                  key={linkIdx}
-                  className="relative py-6 flex items-start space-x-4"
-                >
-                  <div className="flex-shrink-0">
-                    <span className="flex items-center justify-center h-12 w-12 rounded-lg bg-indigo-50">
-                      <link.icon
-                        className="h-6 w-6 text-mango-yellow"
-                        aria-hidden="true"
-                      />
-                    </span>
-                  </div>
-                  <div className="min-w-0 flex-1">
-                    <h3 className="text-base font-medium text-white">
-                      <span className="rounded-sm focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-mango-yellow">
-                        <a href="#" className="focus:outline-none">
-                          <span
-                            className="absolute inset-0"
-                            aria-hidden="true"
-                          />
-                          {link.title}
-                        </a>
-                      </span>
-                    </h3>
-                    <p className="text-base text-white text-opacity-50">
-                      {link.description}
-                    </p>
-                  </div>
-                  <div className="flex-shrink-0 self-center">
-                    <ChevronRightIcon
-                      className="h-5 w-5 text-mango-yellow"
-                      aria-hidden="true"
-                    />
-                  </div>
-                </li>
-              ))}
-            </ul>
-            <div className="mt-8">
-              <a
-                href="#"
-                className="text-base font-medium text-mango-orange hover:text-mango-yellow"
-              >
-                Or go back home<span aria-hidden="true"> &rarr;</span>
-              </a>
-            </div>
-          </div>
         </div>
       </main>
-      <footer className="max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="border-t border-gray-200 py-12 text-center md:flex md:justify-between">
-          <p className="text-base text-gray-400">
-            &copy; Workflow, Inc. All rights reserved.
-          </p>
-          <div className="mt-6 flex justify-center space-x-8 md:mt-0">
-            {social.map((item, itemIdx) => (
-              <a
-                key={itemIdx}
-                href={item.href}
-                className="inline-flex text-gray-400 hover:text-gray-500"
-              >
-                <span className="sr-only">{item.name}</span>
-                <item.icon className="h-6 w-6" aria-hidden="true" />
-              </a>
-            ))}
-          </div>
-        </div>
-      </footer>
     </div>
   )
 }

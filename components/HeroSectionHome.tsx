@@ -39,7 +39,7 @@ const HeroSectionHome = () => {
           <main className="mt-16 sm:mt-16">
             <div className="mx-auto max-w-7xl">
               <div className="">
-                <div className="px-2 ml-6 text-center md:max-w-2xl md:mx-auto lg:my-24 z-10">
+                <div className="px-2 text-center md:max-w-2xl md:mx-auto lg:my-24 z-10">
                   <div /*ref={el => {heroText = el}}*/>
                     <h1 className="mb-3 lg:text-5xl md:text-4xl sm:text-4xl xs:text-3xl text-white font-bold font-heading">
                       Cooperaty

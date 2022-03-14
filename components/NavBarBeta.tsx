@@ -469,7 +469,7 @@ const NavBarBeta = () => {
                 <div>
                   <img
                     className="h-8 ml-1"
-                    src="img/logo_mango.svg"
+                    src="img/logo_cooperaty.png"
                     alt=""
                     width="auto"
                   />

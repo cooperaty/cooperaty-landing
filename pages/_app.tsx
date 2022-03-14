@@ -7,7 +7,7 @@ function App({ Component, pageProps }) {
   const description =
     'A decentralized trading academy in symbiosis with a hedge fund managed by the League of Traders.'
   const keywords =
-    'Cooperaty, Symbiosis, Mango Markets, Serum, SRM, Serum DEX, DEFI, Decentralized Finance, Decentralised Finance, Crypto, ERC20, Ethereum, Decentralize, Solana, SOL, SPL, Cross-Chain, Trading, Fastest, Fast, SerumBTC, SerumUSD, SRM Tokens, SPL Tokens'
+    'Cooperaty, Hackathon, Reptide, Symbiosis, Mango Markets, Serum, SRM, Serum DEX, DEFI, Decentralized Finance, Decentralised Finance, Crypto, ERC20, Ethereum, Decentralize, Solana, SOL, SPL, Cross-Chain, Trading, Fastest, Fast, SerumBTC, SerumUSD, SRM Tokens, SPL Tokens'
 
   return (
     <>
