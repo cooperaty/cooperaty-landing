@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Theme */
+
+:root {
+  --primary: theme('colors.light-theme.yellow');
+  --red: theme('colors.light-theme.red.DEFAULT');
+  --red-dark: theme('colors.light-theme.red.dark');
+  --green: theme('colors.light-theme.green.DEFAULT');
+  --green-dark: theme('colors.light-theme.green.dark');
+  --bkg-1: theme('colors.light-theme["bkg-1"]');
+  --bkg-2: theme('colors.light-theme["bkg-2"]');
+  --bkg-3: theme('colors.light-theme["bkg-3"]');
+  --fgd-1: theme('colors.light-theme["fgd-1"]');
+  --fgd-2: theme('colors.light-theme["fgd-2"]');
+  --fgd-3: theme('colors.light-theme["fgd-3"]');
+  --fgd-4: theme('colors.light-theme["fgd-4"]');
+}
+
+[data-theme='Dark'] {
+  --primary: theme('colors.dark-theme.yellow');
+  --red: theme('colors.dark-theme.red.DEFAULT');
+  --red-dark: theme('colors.dark-theme.red.dark');
+  --green: theme('colors.dark-theme.green.DEFAULT');
+  --green-dark: theme('colors.dark-theme.green.dark');
+  --bkg-1: theme('colors.dark-theme["bkg-1"]');
+  --bkg-2: theme('colors.dark-theme["bkg-2"]');
+  --bkg-3: theme('colors.dark-theme["bkg-3"]');
+  --fgd-1: theme('colors.dark-theme["fgd-1"]');
+  --fgd-2: theme('colors.dark-theme["fgd-2"]');
+  --fgd-3: theme('colors.dark-theme["fgd-3"]');
+  --fgd-4: theme('colors.dark-theme["fgd-4"]');
+}
+
+[data-theme='Mango'] {
+  --primary: theme('colors.mango-theme.yellow');
+  --red: theme('colors.mango-theme.red.DEFAULT');
+  --red-dark: theme('colors.mango-theme.red.dark');
+  --green: theme('colors.mango-theme.green.DEFAULT');
+  --green-dark: theme('colors.mango-theme.green.dark');
+  --bkg-1: theme('colors.mango-theme["bkg-1"]');
+  --bkg-2: theme('colors.mango-theme["bkg-2"]');
+  --bkg-3: theme('colors.mango-theme["bkg-3"]');
+  --fgd-1: theme('colors.mango-theme["fgd-1"]');
+  --fgd-2: theme('colors.mango-theme["fgd-2"]');
+  --fgd-3: theme('colors.mango-theme["fgd-3"]');
+  --fgd-4: theme('colors.mango-theme["fgd-4"]');
+}
+
+[data-theme='Cooperaty'] {
+  --primary: theme('colors.cooperaty-theme.yellow.DEFAULT');
+  --primary-dark: theme('colors.cooperaty-theme.yellow.dark');
+  --red: theme('colors.cooperaty-theme.red.DEFAULT');
+  --red-dark: theme('colors.cooperaty-theme.red.dark');
+  --red-muted: theme('colors.cooperaty-theme.red.muted');
+  --green: theme('colors.cooperaty-theme.green.DEFAULT');
+  --green-dark: theme('colors.cooperaty-theme.green.dark');
+  --green-muted: theme('colors.cooperaty-theme.green.muted');
+  --orange: theme('colors.cooperaty-theme.orange.DEFAULT');
+  background: theme('colors.cooperaty-theme["bkg-0"]');
+  --bkg-0: theme('colors.cooperaty-theme["bkg-0"]');
+  --bkg-1: theme('colors.cooperaty-theme["bkg-1"]');
+  --bkg-2: theme('colors.cooperaty-theme["bkg-2"]');
+  --bkg-3: theme('colors.cooperaty-theme["bkg-3"]');
+  --bkg-4: theme('colors.cooperaty-theme["bkg-4"]');
+  --fgd-1: theme('colors.cooperaty-theme["fgd-1"]');
+  --fgd-2: theme('colors.cooperaty-theme["fgd-2"]');
+  --fgd-3: theme('colors.cooperaty-theme["fgd-3"]');
+  --fgd-4: theme('colors.cooperaty-theme["fgd-4"]');
+  --fgd-5: theme('colors.cooperaty-theme["fgd-5"]');
+}
+
+@layer utilities {
+  .animation-delay-2000 {
+    animation-delay: 2s;
+  }
+  .animation-delay-4000 {
+    animation-delay: 4s;
+  }
+}
